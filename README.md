@@ -34,7 +34,7 @@ Each student should put an 'X' under their name on the days they attend class.
 
 | Date        | Brody | Mourtada | 
 |-------------|-----------|-----------|
-| Nov 14 (Tues)|           |    X       | 
+| Nov 14 (Tues)|           |     X       | 
 | Nov 19 (Sun)|           |           |
 | *Nov 21 (Tues)* |       |           | 
 | *Nov 26 (Sun)* |       |           |
