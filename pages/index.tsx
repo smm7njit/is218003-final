@@ -45,6 +45,30 @@ const Home: NextPage = () => {
         </Col>
       </Grid>
     </Grid.Container>
+    <br>
+    </br>
+    <br>
+    </br>
+    <Grid.Container justify="center" css={{"height": "500px", "borderRadius": "10px", "backgroundImage": "url(https://cdn.discordapp.com/attachments/819846167634116611/1181704573837119599/image_2.png?ex=65820725&is=656f9225&hm=78343c5166dedd43cd0a9c93d7aa5fce82d6ebc506a76cbca0ee69c7c8afb0c8&)"}}>
+      <Grid xs={12} sm={6} alignItems="center">
+        <Col css={{"width": "100%"}}>
+          <Text weight={"bold"} size={70} css={{"textAlign": "center"}}>Drink. Shop.</Text>
+          <Text weight={"bold"} size={70} css={{"textAlign": "center"}}>Taste. Smile.</Text>
+          <Text weight={"normal"} size={35} css={{"textAlign": "center"}}>Discover our rewards program, featuring soda coupons and chances to try new flavors.</Text>
+          <Link href={externalLink} passHref>
+    <Button
+      as="a" // Use the 'a' element for a link
+      size="md"
+      shadow
+      color="gradient"
+      css={{"width": "100%", "marginTop": "10px"}}
+    >
+      Discover More
+    </Button>
+  </Link>
+        </Col>
+      </Grid>
+    </Grid.Container>
 } 
 
 export default Home
