@@ -92,6 +92,22 @@ const Home: NextPage = () => {
             followerCount="52K"
           />
         </a>
+        <InfoCard
+            label=""
+            title="Subscribe to our YouTube!"
+            imageURL="https://th.bing.com/th/id/OIP.zLqRgHv5VcaWgz7CQSMuUgHaE8?rs=1&pid=ImgDetMain"
+            followerCount="52K"
+          />
+        </a>
+        </Link>
+        </Grid>
+      </Grid.Container>
+      <Grid.Container gap={2}>
+      </Grid.Container>
+    <br>
+    </br>
+    <br>
+    </br>
 } 
 
 export default Home
