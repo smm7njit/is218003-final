@@ -80,6 +80,18 @@ const Home: NextPage = () => {
         followerCount="52K"
       />
     </a>
+    </Link>
+        </Grid>
+        <Grid xs={12} sm={4}>
+        <Link href="https://twitter.com/explore">
+        <a>
+      <InfoCard
+            label=""
+            title="Follow Our Twitter!"
+            imageURL="https://thefederalist.com/wp-content/uploads/2021/09/twitter-e1631558832208.jpeg"
+            followerCount="52K"
+          />
+        </a>
 } 
 
 export default Home
