@@ -69,6 +69,17 @@ const Home: NextPage = () => {
         </Col>
       </Grid>
     </Grid.Container>
+    <Grid.Container gap={2}>
+    <Grid xs={12} sm={4}>
+    <Link href="https://www.instagram.com/">
+    <a>
+  <InfoCard
+        label=""
+        title="Follow Our Instagram!"
+        imageURL="https://thephotographerspassport.com/wp-content/uploads/2019/06/Insta_Presets_Featured22-1440x960.jpg"
+        followerCount="52K"
+      />
+    </a>
 } 
 
 export default Home
