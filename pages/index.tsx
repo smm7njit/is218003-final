@@ -36,6 +36,15 @@ const Home: NextPage = () => {
           <Navbar.Link href="/newsletter">More</Navbar.Link>
         </Navbar.Content>
       </Navbar>
+      <Grid.Container justify="center" css={{"height": "500px", "borderRadius": "10px",  "backgroundImage": "url(https://cdn.discordapp.com/attachments/819846167634116611/1181700264575635506/AdobeStock_284656117_Editorial_Use_Only_1_1.png?ex=65820322&is=656f8e22&hm=cf02243b50ff5ce5a05c16b808e0d6c91d4340d7c7e37f9cf79f928706a3f5a4&)",}}>
+      <Grid xs={12} sm={6} alignItems="center">
+        <Col css={{"width": "100%"}}>
+          <Text weight={"bold"} size={60} css={{"textAlign": "center"}}>When it comes to drinks,</Text>
+          <Text weight={"bold"} size={60} css={{"textAlign": "center"}}>we&#39;re tonic artisans.</Text>
+          <Text weight={"normal"} size={25} css={{"textAlign": "center"}}>We always guarantee that our beverages will amaze your taste buds.</Text>
+        </Col>
+      </Grid>
+    </Grid.Container>
 } 
 
 export default Home
