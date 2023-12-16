@@ -16,7 +16,26 @@ import Header from '../components/Header';
 
 
 const Home: NextPage = () => {
+  <CookieConsent>
+      We use cookies to improve your experience. By your continued use of this site you accept such use.
+      </CookieConsent>
 
-}
+      <Header />
+      
+      {/* Navbar */}
+      <Navbar isCompact variant={"static"}>
+        <Navbar.Brand>
+          <Text b color="inherit">
+            Our Soda Brand
+          </Text>
+        </Navbar.Brand>
+        <Navbar.Content hideIn="md">
+          <Navbar> Established in 1970</Navbar>
+        </Navbar.Content>
+        <Navbar.Content>
+          <Navbar.Link href="/newsletter">More</Navbar.Link>
+        </Navbar.Content>
+      </Navbar>
+} 
 
 export default Home
