@@ -16,7 +16,11 @@ import Header from '../components/Header';
 
 
 const Home: NextPage = () => {
-  <CookieConsent>
+
+const externalLink = '/newsletter';
+  return (
+    <Container>
+      <CookieConsent>
       We use cookies to improve your experience. By your continued use of this site you accept such use.
       </CookieConsent>
 
@@ -36,51 +40,60 @@ const Home: NextPage = () => {
           <Navbar.Link href="/newsletter">More</Navbar.Link>
         </Navbar.Content>
       </Navbar>
+      {/* Jumbotron */}
       <Grid.Container justify="center" css={{"height": "500px", "borderRadius": "10px",  "backgroundImage": "url(https://cdn.discordapp.com/attachments/819846167634116611/1181700264575635506/AdobeStock_284656117_Editorial_Use_Only_1_1.png?ex=65820322&is=656f8e22&hm=cf02243b50ff5ce5a05c16b808e0d6c91d4340d7c7e37f9cf79f928706a3f5a4&)",}}>
-      <Grid xs={12} sm={6} alignItems="center">
-        <Col css={{"width": "100%"}}>
-          <Text weight={"bold"} size={60} css={{"textAlign": "center"}}>When it comes to drinks,</Text>
-          <Text weight={"bold"} size={60} css={{"textAlign": "center"}}>we&#39;re tonic artisans.</Text>
-          <Text weight={"normal"} size={25} css={{"textAlign": "center"}}>We always guarantee that our beverages will amaze your taste buds.</Text>
-        </Col>
-      </Grid>
-    </Grid.Container>
-    <br>
-    </br>
-    <br>
-    </br>
-    <Grid.Container justify="center" css={{"height": "500px", "borderRadius": "10px", "backgroundImage": "url(https://cdn.discordapp.com/attachments/819846167634116611/1181704573837119599/image_2.png?ex=65820725&is=656f9225&hm=78343c5166dedd43cd0a9c93d7aa5fce82d6ebc506a76cbca0ee69c7c8afb0c8&)"}}>
-      <Grid xs={12} sm={6} alignItems="center">
-        <Col css={{"width": "100%"}}>
-          <Text weight={"bold"} size={70} css={{"textAlign": "center"}}>Drink. Shop.</Text>
-          <Text weight={"bold"} size={70} css={{"textAlign": "center"}}>Taste. Smile.</Text>
-          <Text weight={"normal"} size={35} css={{"textAlign": "center"}}>Discover our rewards program, featuring soda coupons and chances to try new flavors.</Text>
-          <Link href={externalLink} passHref>
-    <Button
-      as="a" // Use the 'a' element for a link
-      size="md"
-      shadow
-      color="gradient"
-      css={{"width": "100%", "marginTop": "10px"}}
-    >
-      Discover More
-    </Button>
-  </Link>
-        </Col>
-      </Grid>
-    </Grid.Container>
-    <Grid.Container gap={2}>
-    <Grid xs={12} sm={4}>
-    <Link href="https://www.instagram.com/">
-    <a>
-  <InfoCard
-        label=""
-        title="Follow Our Instagram!"
-        imageURL="https://thephotographerspassport.com/wp-content/uploads/2019/06/Insta_Presets_Featured22-1440x960.jpg"
-        followerCount="52K"
-      />
-    </a>
+        <Grid xs={12} sm={6} alignItems="center">
+          <Col css={{"width": "100%"}}>
+            <Text weight={"bold"} size={60} css={{"textAlign": "center"}}>When it comes to drinks,</Text>
+            <Text weight={"bold"} size={60} css={{"textAlign": "center"}}>we&#39;re tonic artisans.</Text>
+            <Text weight={"normal"} size={25} css={{"textAlign": "center"}}>We always guarantee that our beverages will amaze your taste buds.</Text>
+          </Col>
+        </Grid>
+      </Grid.Container>
+      <br>
+      </br>
+      <br>
+      </br>
+      <Grid.Container justify="center" css={{"height": "500px", "borderRadius": "10px", "backgroundImage": "url(https://cdn.discordapp.com/attachments/819846167634116611/1181704573837119599/image_2.png?ex=65820725&is=656f9225&hm=78343c5166dedd43cd0a9c93d7aa5fce82d6ebc506a76cbca0ee69c7c8afb0c8&)"}}>
+        <Grid xs={12} sm={6} alignItems="center">
+          <Col css={{"width": "100%"}}>
+            <Text weight={"bold"} size={70} css={{"textAlign": "center"}}>Drink. Shop.</Text>
+            <Text weight={"bold"} size={70} css={{"textAlign": "center"}}>Taste. Smile.</Text>
+            <Text weight={"normal"} size={35} css={{"textAlign": "center"}}>Discover our rewards program, featuring soda coupons and chances to try new flavors.</Text>
+            <Link href={externalLink} passHref>
+      <Button
+        as="a" // Use the 'a' element for a link
+        size="md"
+        shadow
+        color="gradient"
+        css={{"width": "100%", "marginTop": "10px"}}
+      >
+        Discover More
+      </Button>
     </Link>
+          </Col>
+        </Grid>
+      </Grid.Container>
+      <br>
+      </br>
+      <br>
+      </br>
+
+
+
+      {/* 3 Displaying Product Cards */}
+      <Grid.Container gap={2}>
+        <Grid xs={12} sm={4}>
+        <Link href="https://www.instagram.com/">
+        <a>
+      <InfoCard
+            label=""
+            title="Follow Our Instagram!"
+            imageURL="https://thephotographerspassport.com/wp-content/uploads/2019/06/Insta_Presets_Featured22-1440x960.jpg"
+            followerCount="52K"
+          />
+        </a>
+        </Link>
         </Grid>
         <Grid xs={12} sm={4}>
         <Link href="https://twitter.com/explore">
@@ -92,7 +105,12 @@ const Home: NextPage = () => {
             followerCount="52K"
           />
         </a>
-        <InfoCard
+        </Link>
+        </Grid>
+        <Grid xs={12} sm={4}>
+        <Link href="https://www.youtube.com/">
+        <a>
+      <InfoCard
             label=""
             title="Subscribe to our YouTube!"
             imageURL="https://th.bing.com/th/id/OIP.zLqRgHv5VcaWgz7CQSMuUgHaE8?rs=1&pid=ImgDetMain"
@@ -108,6 +126,26 @@ const Home: NextPage = () => {
     </br>
     <br>
     </br>
-} 
+    <div className="flex w-full flex-wrap md:flex-nowrap mb-6 md:mb-0 gap-4">
+    </div>
+    <Link href={externalLink} passHref>
+      <Button
+        as="a" // Use the 'a' element for an external link
+        size="sm"
+        shadow
+        color="gradient"
+        css={{"width": "20%", "marginTop": "10px"}}
+      >
+        To Our Newsletter
+      </Button>
+      
+    </Link>
+      <br>
+      </br>
+      <br>
+      </br>
+    </Container>
+  )
+}
 
 export default Home
