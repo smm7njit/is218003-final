@@ -28,5 +28,3 @@ test('Check if Navbar content is not empty', async ({ page }) => {
 
 
 
-
-
