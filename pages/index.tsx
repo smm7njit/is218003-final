@@ -21,6 +21,7 @@ const Home: NextPage = () => {
 const externalLink = '/newsletter';
   return (
     <Container>
+      <title>IS Final</title>
       <div className='bg red-500'>
       <CookieConsent>
       We use cookies to improve your experience. By your continued use of this site you accept such use.
@@ -102,6 +103,7 @@ const externalLink = '/newsletter';
 
       {/* 3 Displaying Product Cards */}
       <Grid.Container gap={2}>
+        <div>
         <Grid xs={12} sm={4}>
         <Link href="https://www.instagram.com/">
         <a>
@@ -114,6 +116,7 @@ const externalLink = '/newsletter';
         </a>
         </Link>
         </Grid>
+        </div>
         <Grid xs={12} sm={4}>
         <Link href="https://twitter.com/explore">
         <a>
