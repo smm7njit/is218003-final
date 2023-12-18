@@ -151,7 +151,7 @@ const externalLink = '/newsletter';
       <Button
         as="a" // Use the 'a' element for an external link
         size="sm"
-        shadow
+        bordered
         color="gradient"
         css={{"width": "20%", "marginTop": "10px"}}
       >
