@@ -103,7 +103,6 @@ const externalLink = '/newsletter';
 
       {/* 3 Displaying Product Cards */}
       <Grid.Container gap={2}>
-        <div>
         <Grid xs={12} sm={4}>
         <Link href="https://www.instagram.com/">
         <a>
@@ -116,7 +115,6 @@ const externalLink = '/newsletter';
         </a>
         </Link>
         </Grid>
-        </div>
         <Grid xs={12} sm={4}>
         <Link href="https://twitter.com/explore">
         <a>
