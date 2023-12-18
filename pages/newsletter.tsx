@@ -25,6 +25,7 @@ const homeLink = '/index';
           <Navbar.Brand> Established in 1970</Navbar.Brand>
         </Navbar.Content>
         <Navbar.Content>
+        <Link href="/" passHref>
         <Button
         as="a" // Use the 'a' element for an external link
         size="sm"
@@ -33,6 +34,7 @@ const homeLink = '/index';
       >
         To Home Page
       </Button>
+      </Link>
         </Navbar.Content>
       </Navbar>
       <br>
