@@ -32,7 +32,7 @@ const externalLink = '/newsletter';
       <Navbar>
         <Navbar.Brand>
           <Text b color="inherit">
-            Velvet.
+            Velvet
           </Text>
         </Navbar.Brand>
         <Navbar.Content hideIn="md">
