@@ -80,7 +80,7 @@ const externalLink = '/newsletter';
         as="a" // Use the 'a' element for a link
         size="md"
         shadow
-        color="gradient"
+        color="error"
         css={{"width": "100%", "marginTop": "10px"}}
       >
         Discover More
