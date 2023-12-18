@@ -25,6 +25,9 @@ test('Check if Navbar content is not empty', async ({ page }) => {
   await page.getByText('Established in 1970').click();
 });
 
-
+test('Check if second part of hero section is present', async ({ page }) => {
+  await page.goto('http://localhost:3000/');
+  await page.getByText('we\'re liquid craftsmen.').click();
+});
 
 
