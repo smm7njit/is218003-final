@@ -20,6 +20,13 @@ test('Check if Navbar text is present', async ({ page }) => {
   await page.getByText('Velvet').click();
 });
 
+test('Check if Navbar content is not empty', async ({ page }) => {
+  await page.goto('http://localhost:3000/');
+  await page.getByText('Established in 1970').click();
+});
+
+
+
 
 
 
