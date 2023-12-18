@@ -39,7 +39,16 @@ const externalLink = '/newsletter';
           <Navbar.Brand> Established in 1970</Navbar.Brand>
         </Navbar.Content>
         <Navbar.Content>
-          <Navbar.Link href="/newsletter">More</Navbar.Link>
+        <Link href={externalLink} passHref>
+        <Button
+        as="a" // Use the 'a' element for an external link
+        size="sm"
+        bordered color="gradient"
+        css={{"width": "20%", "marginTop": "10px"}}
+      >
+        To Our Newsletter
+      </Button>
+      </Link>
         </Navbar.Content>
       </Navbar>
       <br>
