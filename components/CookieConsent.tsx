@@ -25,7 +25,7 @@ return null;
 return (
 <div>
 <p>We use cookies to improve your experience. By your continued use of this site you accept such use.</p>
-<button onClick={acceptConsent}>Got it!</button>
+<button onClick={acceptConsent}>I understand</button>
 </div>
 );
 };
