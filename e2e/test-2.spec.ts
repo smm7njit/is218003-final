@@ -34,3 +34,8 @@ test('Check if newsletter page text is present', async ({ page }) => {
   await page.goto('http://localhost:3000/');
   await page.getByRole('heading', { name: 'Sign up for newsletters and' }).click();
 });
+
+test('Check if Home link functions', async ({ page }) => {
+  await page.goto('http://localhost:3000/');
+  await page.getByRole('link', { name: 'To Our Newsletter' }).click();
+});
