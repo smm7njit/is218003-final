@@ -11,7 +11,22 @@ import CookieConsent, {getCookieConsentValue} from "react-cookie-consent";
 
 
 
-const darkTheme = createTheme({type: "dark"});
+const darkTheme = createTheme({type: "dark",
+theme: {
+  colors: {
+    // brand colors
+
+    // you can also create your own color
+    myColor: '#8d4ec9'
+
+    // ...  more colors
+  },
+  space: {},
+  fonts: {}
+}
+
+});
+
 
 function MyApp({ Component, pageProps,  }: AppProps) {
   return (
