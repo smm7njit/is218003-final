@@ -10,11 +10,6 @@ test('Check link to Newsletter works', async ({ page }) => {
   await page.getByRole('link', { name: 'To Our Newsletter' }).click();
 });
 
-test('Check if email box placeholder is present', async ({ page }) => {
-  await page.goto('http://localhost:3000/');
-  await page.getByPlaceholder('Your email').click();
-});
-
 test('Check if Navbar text is present', async ({ page }) => {
   await page.goto('http://localhost:3000/');
   await page.getByText('Velvet').click();
@@ -30,4 +25,8 @@ test('Check if second part of hero section is present', async ({ page }) => {
   await page.getByText('we\'re liquid craftsmen.').click();
 });
 
+test('Check if email box  is present', async ({ page }) => {
+  await page.goto('http://localhost:3000/');
+  await page.getByPlaceholder('Your email').click();
+});
 
