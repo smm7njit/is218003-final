@@ -56,7 +56,7 @@ const externalLink = '/newsletter';
       <br>
       </br>
       {/* Jumbotron */}
-      <Grid.Container justify="center" css={{"height": "500px", "borderRadius": "10px",  "backgroundImage": "url(https://cdn.discordapp.com/attachments/918054777538117642/1186214740142329886/AdobeStock_284656117_Editorial_Use_Only_1_4.png?ex=65926f90&is=657ffa90&hm=9bf5249984bbc6668c44ac0bf69f3a995f0be8ce1234c3b214e72379252bc71c&)",}}>
+      <Grid.Container justify="center" css={{"height": "500px", "borderRadius": "10px",  "backgroundImage": "url(https://cdn.discordapp.com/attachments/1171889168062894171/1186201476503191642/AdobeStock_127177796_1_1.png?ex=65926336&is=657fee36&hm=ede66971e31eb64f50cd4448c244ca4800a18fa56448a7addd07f0edb2fe2f56&)",}}>
         <Grid xs={12} sm={6} alignItems="center">
           <Col css={{"width": "100%"}}>
             <Text weight={"bold"} size={60} css={{"textAlign": "center"}}>When it comes to beverages,</Text>
