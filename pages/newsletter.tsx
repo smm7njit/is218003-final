@@ -15,7 +15,7 @@ const Newsletter = () => {
 const homeLink = '/index';
   return (
     <Container>
-        <Navbar isCompact variant={"static"} css={{"backgroundImage": "url(https://cdn.discordapp.com/attachments/1171889168062894171/1186201476503191642/AdobeStock_127177796_1_1.png?ex=65926336&is=657fee36&hm=ede66971e31eb64f50cd4448c244ca4800a18fa56448a7addd07f0edb2fe2f56&)"}}>
+        <Navbar>
         <Navbar.Brand>
           <Text b color="inherit">
             Velvet.
