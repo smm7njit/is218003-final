@@ -69,7 +69,7 @@ const externalLink = '/newsletter';
       </br>
       <br>
       </br>
-      <Grid.Container justify="center" css={{"height": "500px", "borderRadius": "10px", "backgroundImage": "url(/jumbotwo.png)"}}>
+      <Grid.Container justify="center" css={{"height": "500px", "borderRadius": "10px", "backgroundImage": "url()"}}>
         <Grid xs={12} sm={6} alignItems="center">
           <Col css={{"width": "100%"}}>
             <Text weight={"bold"} size={70} css={{"textAlign": "center"}}>Drink. Shop.</Text>
