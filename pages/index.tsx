@@ -108,7 +108,7 @@ const externalLink = '/newsletter';
       <InfoCard
             label=""
             title="Follow Our Instagram!"
-            imageURL="https://thephotographerspassport.com/wp-content/uploads/2019/06/Insta_Presets_Featured22-1440x960.jpg"
+            imageURL="firstinfo.jpg"
             followerCount="52K"
           />
         </a>
@@ -120,7 +120,7 @@ const externalLink = '/newsletter';
       <InfoCard
             label=""
             title="Follow Our Twitter!"
-            imageURL="https://thefederalist.com/wp-content/uploads/2021/09/twitter-e1631558832208.jpeg"
+            imageURL="secondinfo.jpeg"
             followerCount="52K"
           />
         </a>
@@ -132,7 +132,7 @@ const externalLink = '/newsletter';
       <InfoCard
             label=""
             title="Subscribe to our YouTube!"
-            imageURL="https://th.bing.com/th/id/OIP.zLqRgHv5VcaWgz7CQSMuUgHaE8?rs=1&pid=ImgDetMain"
+            imageURL="thirdinfo.jpg"
             followerCount="52K"
           />
         </a>
