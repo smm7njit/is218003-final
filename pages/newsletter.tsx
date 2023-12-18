@@ -45,12 +45,6 @@ const homeLink = '/index';
     <h2>Sign up for newsletters and our rewards program here:</h2>
     <NewsletterForm />
     </div>
-    <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
     </Container>
   );
 };
