@@ -22,7 +22,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>{CssBaseline.flush()}
-        
+          <CookieConsent />
         </Head>
         <body>
           <Main />

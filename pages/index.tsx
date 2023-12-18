@@ -21,6 +21,7 @@ const Home: NextPage = () => {
 const externalLink = '/newsletter';
   return (
     <Container>
+      <div className='bg red-500'>
       <CookieConsent>
       We use cookies to improve your experience. By your continued use of this site you accept such use.
       </CookieConsent>
@@ -28,7 +29,7 @@ const externalLink = '/newsletter';
       <Header />
       
       {/* Navbar */}
-      <Navbar isCompact variant={"static"} css={{"backgroundImage": "url(https://cdn.suwalls.com/wallpapers/abstract/purple-squares-43497-2560x1600.jpg)"}}>
+      <Navbar>
         <Navbar.Brand>
           <Text b color="inherit">
             Velvet.
@@ -153,6 +154,7 @@ const externalLink = '/newsletter';
       </br>
       <br>
       </br>
+      </div>
     </Container>
   )
 }
