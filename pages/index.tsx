@@ -75,7 +75,7 @@ const externalLink = '/newsletter';
           <Col css={{"width": "100%"}}>
             <Text weight={"bold"} size={70} css={{"textAlign": "center"}}>Drink. Shop.</Text>
             <Text weight={"bold"} size={70} css={{"textAlign": "center"}}>Taste. Smile.</Text>
-            <Text weight={"normal"} size={35} css={{"textAlign": "center"}}>Discover our rewards program, featuring soda coupons and chances to try new flavors.</Text>
+            <Text weight={"normal"} size={35} css={{"textAlign": "center"}}>Try one of our many classic flavors, developed in-house for over fifty years.</Text>
             <Link href={externalLink} passHref>
       <Button
         as="a" // Use the 'a' element for a link
