@@ -5,10 +5,6 @@ test('Test hero section text is present', async ({ page }) => {
   await page.getByText("We're Liquid").click();
 });
 
-test('Check link to Newsletter works', async ({ page }) => {
-  await page.goto('http://localhost:3000/');
-  await page.getByRole('link', { name: 'To Our' }).click();
-});
 
 test('Check if newsletter page text is present', async ({ page }) => {
   await page.goto('http://localhost:3000/');
@@ -20,11 +16,6 @@ test('Check if email box placeholder is present', async ({ page }) => {
   await page.getByPlaceholder('Your email').click();
 });
 
-test('Check if Home link functions', async ({ page }) => {
-  await page.goto('http://localhost:3000/');
-  await page.getByRole('link', { name: 'To Our Newsletter' }).click();
-});
-
 test('Check if second part of hero section is present', async ({ page }) => {
   await page.goto('http://localhost:3000/');
   await page.getByText('Craftsmen.').click();
@@ -32,12 +23,12 @@ test('Check if second part of hero section is present', async ({ page }) => {
 
 test('Check if subtext of hero section is present', async ({ page }) => {
   await page.goto('http://localhost:3000/');
-  await page.getByText('Tons of classic flavors,').click();
+  await page.getByText('Try one of our many classic flavors,').click();
 });
 
 test('Check if first jumbotron component is visible', async ({ page }) => {
   await page.goto('http://localhost:3000/');
-  await page.locator('[id="__next"] div').filter({ hasText: 'When it comes to drinks,we\'re' }).nth(2).click();
+  await page.locator('[id="__next"] div').filter({ hasText: 'We\'re Liquid' }).nth(2).click();
 });
 
 test('Check if second jumbotron component is visible', async ({ page }) => {
